@@ -8,8 +8,8 @@ export default class Navbar extends Component {
       <>
         <div className='w-full flex justify-between items-center font-semibold '>
             <div className='flex items-center gap-2'>
-                <img src={arrowleft} alt="" className='w-8 bg-black rounded-2xl cursor-pointer'/>
-                <img src={arrowright} alt="" className='w-8 bg-black rounded-2xl cursor-pointer'/>
+                <img src={arrowleft} alt="" className='w-5 bg-black rounded-2xl cursor-pointer'/>
+                <img src={arrowright} alt="" className='w-5 bg-black rounded-2xl cursor-pointer'/>
             </div>
             <div className='flex items-center gap-4'>
               <p className='pt-1 px-3 rounded-2xl text-[15px]'>Signup</p>
