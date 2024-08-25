@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from './Navbar'
 import Albemitem from './Albemitem'
-import Albemitem2 from './Albemitem2'
+import Artisitem from './Artisitem'
 
 export default class Displayhome extends Component {
   render() {
@@ -10,30 +10,15 @@ export default class Displayhome extends Component {
         <Navbar/>
         <div className='mb-4'>
         <h1 className='my-5 font-bold text-2xl'>Popular Artist</h1>
-        <div className='flex overflow-auto'>
-          <Albemitem/>
-          <Albemitem/>
-          <Albemitem/>
-          <Albemitem/>
-          <Albemitem/>
-          <Albemitem/>
-          <Albemitem/>
-          <Albemitem/>
-          <Albemitem/>
+        <div className='flex overflow-auto '>
+        <Albemitem/>
         </div>
         </div>
         <div className='mb-4'>
         <h1 className='my-5 font-bold text-2xl'>Popular Album</h1>
         <div className='flex overflow-auto'>
-          <Albemitem2/>
-          <Albemitem2/>
-          <Albemitem2/>
-          <Albemitem2/>
-          <Albemitem2/>
-          <Albemitem2/>
-          <Albemitem2/>
-          <Albemitem2/>
-          
+         
+          <Artisitem/>
         </div>
         </div>
       </>
