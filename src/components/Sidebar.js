@@ -9,7 +9,7 @@ import spotify_logo from "../assets/images/spotifylogo.png"
 export default class Sidebar extends Component {
   render() {
     return (
-      <div className="w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex">
+      <div className="w-[24%] h-full p-2 flex-col gap-2 text-white hidden lg:flex">
         <div className="bg-[#121212] h-[30%] rounded flex flex-col justify-around">
           <div className="flex items-center gap-2 pl-6 cursor-pointer">
             <img className="w-[7rem] " src={spotify_logo} alt="" />
