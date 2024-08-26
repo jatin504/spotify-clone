@@ -1,5 +1,6 @@
 import './App.css';
 import Display from './components/Display';
+import Footer from './components/Footer';
 // import Player from './components/Player';
 import Sidebar from './components/Sidebar';
 
@@ -11,6 +12,7 @@ function App() {
         <Display/>
       </div>
       {/* <Player/> */}
+      
     </div>
   );
 }

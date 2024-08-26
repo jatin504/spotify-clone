@@ -186,20 +186,20 @@ export const albumData = [
         desc: "Artist",
         bgColor: "#234e52",
       },
-      {
-        id: 6,
-        name: "Anirudh Ravichander",
-        image: anirudh,
-        desc: "Artist",
-        bgColor: "#744210",
-      },
-      {
-        id: 7,
-        name: "Atif Aslam",
-        image: atifaslam,
-        desc: "Artist",
-        bgColor: "#744210",
-      },
+      // {
+      //   id: 6,
+      //   name: "Anirudh Ravichander",
+      //   image: anirudh,
+      //   desc: "Artist",
+      //   bgColor: "#744210",
+      // },
+      // {
+      //   id: 7,
+      //   name: "Atif Aslam",
+      //   image: atifaslam,
+      //   desc: "Artist",
+      //   bgColor: "#744210",
+      // },
     
   ];
   

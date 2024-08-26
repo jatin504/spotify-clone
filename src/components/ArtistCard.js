@@ -4,11 +4,11 @@ import { FaPlay } from "react-icons/fa";
 export default class Albemitem extends Component {
   render() {
     return (
-      <div className="flex overflow-auto">
+      <div className="flex overflow-hidden">
         {albumData.map((album) => (
           <div
             key={album.id}
-            className="min-w-[180px] p-2 px-3 rounded cursor-pointer hover:bg-[#ffffff26] m-2 relative group"
+            className="min-w-[160px] p-2 px-3 rounded cursor-pointer hover:bg-[#ffffff26] m-2 relative group"
           >
             <img
               src={album.image}

@@ -10,7 +10,7 @@ export default class Albemitem2 extends Component {
             
         return  <div 
           key={album.id}
-          className="min-w-[180px] p-2 px-3 rounded cursor-pointer hover:bg-[#ffffff26] m-2" style={{backgroundColor:album.bgColor}}>
+          className="min-w-[160px] p-2 px-3 rounded cursor-pointer hover:bg-[#ffffff26] m-2" style={{backgroundColor:album.bgColor}}>
             <img src={album.image} alt={album.name} className="rounded" />
             <p className="font-bold mt-2 mb-1">{album.name}</p>
             <p className="text-slate-200 text-sm">{album.desc}</p>
