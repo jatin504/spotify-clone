@@ -17,7 +17,7 @@ export default class Albemitem extends Component {
             />
             <p className="font-bold mt-2 mb-1">{album.name}</p>
             <p className="text-slate-200 text-sm">{album.desc}</p>
-            <div className="bg-green-600 p-3 absolute bottom-16 right-1 flex items-center justify-center rounded-full w-14 text-lg opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0  transition-all duration-60">
+            <div className="bg-green-600 p-3 absolute bottom-16 right-1 flex items-center justify-center rounded-full w-14 text-lg opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0  transition-all duration-950">
               <FaPlay className="text-[30px]" />
             </div>
           </div>
