@@ -38,7 +38,7 @@ export default class Footer extends Component {
             <li className='my-3'><a href="#">Premium Duo</a></li>
             <li className='my-3'><a href="#">Premium Family</a></li>
             <li className='my-3'><a href="#">Premium Student</a></li>
-            <li className='my-3'><a href="#">Spotify Free</a></li>
+            <li className='my-3'><a href="#">Spotify Free jatin</a></li>
             </ul>
         </div>
         <div className='p-2  w-[180px]'>
