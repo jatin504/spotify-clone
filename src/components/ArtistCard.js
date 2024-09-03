@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 export default class Albemitem extends Component {
   render() {
     return (
-      <div className="flex overflow-hidden">
+      <div className="flex overflow-auto">
         {albumData.map((album) => (
           <div
             key={album.id}

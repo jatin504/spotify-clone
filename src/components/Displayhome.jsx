@@ -11,7 +11,7 @@ export default class Displayhome extends Component {
         <Navbar />
         <div className="mb-4">
           <h1 className="my-5 font-bold text-2xl">Popular Artist</h1>
-          <div className="flex overflow-hidden">
+          <div className="flex overflow-auto">
             <ArtistCard />
           </div>
         </div>

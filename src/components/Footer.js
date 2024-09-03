@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa6";
 export default class Footer extends Component {
   render() {
     return (
-      <div className='flex items-strenth gap-10'>
+      <div className='flex flex-wrap items-strenth gap-10'>
         <div className='p-2   w-[180px]'>
             <h1 className='mb-2'>Company</h1>
             <ul className='mt-4'>
